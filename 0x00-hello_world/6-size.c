@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - Print the sizes
+ * main - Entry points
+ *
+ * Description: Printing with sizes
  *
  * Return: Always 0 (Success)
  */
