@@ -2,11 +2,10 @@
 
 /**
  * main - Entry point
- *
  * Description: Printing with sizes
- *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 	char c;
