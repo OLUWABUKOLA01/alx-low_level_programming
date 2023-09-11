@@ -14,17 +14,19 @@ int main(void)
 
 	for (s = 0; s < 10; s++)
 	{
-		for (t = s + 1; t < 10; t++)
+		for (t = s + 1; t  <= 9; t++)
 		{
-			putchar((s & 10) + '0');
+			putchar((s % 10) + '0');
 			putchar((t % 10) + '0');
 
 			if (s == 8 && t == 9)
 				continue;
+
 			putchar(',');
 			putchar(' ');
 		}
 	}
+
 	putchar('\n');
 	return (0);
 }
