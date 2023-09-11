@@ -2,7 +2,7 @@
 
 /**
  * main - Entry Point
- * Description: Print all possible different combinations of two digits
+ * Description: Print all possible combinations of two digits
  * Return: 0
 */
 int main(void)
