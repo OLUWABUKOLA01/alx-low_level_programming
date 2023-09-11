@@ -16,7 +16,10 @@ int main(void)
 	{
 		for (t = s + 1; t  <= 99; t++)
 		{
+			putchar((s / 10) + '0');
 			putchar((s % 10) + '0');
+			putchar(' ');
+			putchar((t / 10) + '0');
 			putchar((t % 10) + '0');
 
 				if (s == 98 && t == 99)
