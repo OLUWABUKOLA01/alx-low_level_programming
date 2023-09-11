@@ -13,6 +13,7 @@ for (s = 0; t <= 9; s++)
 {
 	putchar((s % 10) + '0');
 	for (t = s + 1; t <= 9; t++)
+	putchar((t % 10) + '0');
 		continue;
 	putchar(',');
 	putchar(' ');
