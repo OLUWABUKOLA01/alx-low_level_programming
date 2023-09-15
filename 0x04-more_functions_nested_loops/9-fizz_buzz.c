@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - print the numbers from 1 to 100 of programming job candidate
+ * main - print the numbers from 1 to 100
  * but for multiples of three print Fizz
  * instead of the number and for the multiples of five print Buzz
  * Return: 0 (Success)
