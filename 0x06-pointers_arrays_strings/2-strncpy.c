@@ -1,6 +1,7 @@
 #include "main.h"
+
 /**
- * *_strncpy - copy a string
+ * _strncpy - copy a string
  * @dest: first parameter
  * @src: second parameter
  * @n: third parameter
@@ -8,13 +9,13 @@
  */
 char *_strncpy(char *dest, char *src, int n)
 {
-	int k;
+	int a = 0;
 
-	for (k = 0; k < n && src[k] != '\0'; k++)
-		dest[k] = src[k];
+	for (a = 0; a < n && src[a] != '\0'; a++)
+		dest[a] = src[a];
 
-	for (k < n; k++)
-		dest[k] = '\0';
+	for (; n > a; a++)
+		dest[a] = '\0';
 
 	return (dest);
 }
