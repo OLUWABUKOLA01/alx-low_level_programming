@@ -1,9 +1,9 @@
 #include "main.h"
 /**
  * _memcpy - copies memory area
- * @dest: first function
- * @src: second function
- * @n: third function
+ * @dest: destination function
+ * @src: source function
+ * @n: n function
  * Return: dest
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
@@ -12,7 +12,7 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 
 	for (z = 0; z < n; z++)
 	{
-		src[z] = dest[z];
+		dest[z] = src[z];
 	}
 	return (dest);
 }
