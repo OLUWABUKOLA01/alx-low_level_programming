@@ -3,11 +3,11 @@
  * _strspn -  length of a prefix substring
  * @s: string
  * @accept: bytes
- *
+ * Return: Always 0
  */
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int x;
+	unsigned int x = 0;
 	int y;
 
 	while (*s)
