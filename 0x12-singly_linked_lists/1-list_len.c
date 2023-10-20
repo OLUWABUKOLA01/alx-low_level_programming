@@ -12,7 +12,10 @@ size_t list_len(const list_t *h)
 {
 	unsigned int a = 0;
 
-	while (h == 0)
-	
-		return (a);
+	while (h != 0)
+	{
+		h = h->next;
+		a++;
+	}
+	return (a);
 }
